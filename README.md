@@ -1,1 +1,2 @@
-# AI-text_detection
+# AI generated text detection in Python.
+
