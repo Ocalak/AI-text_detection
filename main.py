@@ -11,7 +11,7 @@ vectorizer = CountVectorizer()
 X = vectorizer.fit_transform(data["text"])
 y = data["label"]
 
-# split the data into training and test sets
+"""# split the data into training and test sets
 #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 # create a Naive Bayes classifier
@@ -31,3 +31,5 @@ print("Accuracy: ", accuracy)
 
 
 #https://mr-collins-llb.medium.com/implementing-ai-text-generation-detection-with-python-a-step-by-step-guide-using-machine-learning-83e425c6a737
+
+"""
